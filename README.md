@@ -19,4 +19,4 @@ This tool requires 4 pieces of information:
 * Server URL 
 * Site Name
 
-The username and password are the credentials you use to log into your Tableau Server. The Server URL is the URL of your organisation, e.g. https://tableau.inviso.dk/. While Site Name is can be found in the URL once you have signed in e.g. (marked with bold) https://tableau.inviso.dk/#/site/**Inviso-TorPetersen**/explore
+The username and password are the credentials you use to log into your Tableau Server. The Server URL is the URL of your organisation, e.g. https://tableau.inviso.dk/. While Site Name is can be found in the URL once you have signed in e.g. (marked with bold) https://tableau.inviso.dk/#/site/_**Inviso-TorPetersen**_/explore
