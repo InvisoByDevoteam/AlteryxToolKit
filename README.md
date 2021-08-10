@@ -9,7 +9,7 @@ This repository includes 3 tools:
 * Tableau Server API Get View ID 
 * Tableau Server API Download Image 
 
-As mentioned the two first tools are required in order to be able to extract anything from you Tableau Server. The last tool saves a dashboard locally on your computer. 
+As mentioned the two first tools are required in order to be able to extract anything from you Tableau Server. The last tool saves a dashboard locally on your computer. Behind the scene these tools utilised Tableau Server APIs. Hence, making your Alteryx workflow less complicated, safer and increase your work effiency. 
 
 # Tableau Server API Authentication
 
@@ -25,4 +25,11 @@ The username and password are the credentials you use to log into your Tableau S
 
 
 https://user-images.githubusercontent.com/88531833/128858572-f86ad766-58c1-4ae3-9e4e-f584abb5b76c.mov
+
+# Tableau Server API Get View ID 
+
+This tool requires to be connected to the output-stream of the Tableau Server API Authentication tool. It will return a list of your Tableau Server view names, view IDs and view URLs. 
+
+
+# Tableau Server API Download Image 
 
