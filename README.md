@@ -33,4 +33,4 @@ This tool requires to be connected to the output-stream of the Tableau Server AP
 
 # Tableau Server API Download Image 
 
-This tool allows you to save a you Tableau Server dashboards locally as a png file. It requires to be connected to the output-stream of the Tableau Server API Authentication or Tableau Server API Get View ID -tool. Furthermore, you need to specify where (the path) you want to save locally e.g., C://Useres/_<user>_/Desktop/_<name of file>_. 
+This tool allows you to save a you Tableau Server dashboards locally as a png file. It requires to be connected to the output-stream of the Tableau Server API Authentication or Tableau Server API Get View ID -tool. Furthermore, you need to specify where (the path) you want to save locally e.g., C://Useres/*<user>*/Desktop/_<name of file>_. 
