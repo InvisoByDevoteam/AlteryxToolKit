@@ -44,11 +44,12 @@ Now we are ready to go!
 
 *To summarize: First we send our username and password to tableau, they send back a token which will then count as our pseudo username and password when using     the API.*
  
+But you can ignore this, because you have tool number 1 - The Tableau Server API Authentication Tool. Simply drag to your canvas and fill in the required information and you are ready for step 2. 
 
+<img width="866" alt="image1" src="https://user-images.githubusercontent.com/88531833/135097745-855d20a1-f66e-49d1-a5b3-0432e772087b.png">
 
 
 https://user-images.githubusercontent.com/88531833/135090970-b14b03d6-c054-4eca-ac17-f1f78f2d5059.mp4
-
 
 
 
@@ -56,12 +57,12 @@ https://user-images.githubusercontent.com/88531833/135090970-b14b03d6-c054-4eca-
 
 This tool requires to be connected to the output-stream of the Tableau Server API Authentication tool. It will return a list of your Tableau Server view names, view IDs and view URLs. 
 
-
 https://user-images.githubusercontent.com/88531833/135091077-bbb397d8-1d82-49bd-af1d-2d2025abd032.mp4
 
 
 
 # Tableau Server API Download Image 
+
 
 This tool allows you to save a you Tableau Server dashboards locally as a png file. It requires to be connected to the output-stream of the Tableau Server API Authentication or Tableau Server API Get View ID -tool. Furthermore, you need to specify where (the path) you want to save locally e.g., C://Useres/user/Desktop/nameOfFile.png. Lastly, you need to specify which dashboard you wish to save as a png by specifying its _View ID_, which can be found in the output-stream of the Tableau Server API Get View ID tool. 
 
