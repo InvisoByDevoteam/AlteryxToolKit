@@ -98,7 +98,7 @@ https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm
 
 # Examples:
 
-**Download data from view: 
+**Download data from view:**
 
 <img width="504" alt="image3" src="https://user-images.githubusercontent.com/88531833/135099229-aa718194-f28a-42af-83da-86f577a67e1d.png">
 
@@ -106,7 +106,7 @@ https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm
 
 
 **Download view with filters applied:
-*Remember to add vf_ before each filter 
+Remember to add vf_ before each filter 
 
 
 <img width="501" alt="image6" src="https://user-images.githubusercontent.com/88531833/135099702-ab599e35-ed5d-4ce1-9a17-e41c74a1be93.png">
