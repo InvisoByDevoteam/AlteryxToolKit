@@ -89,7 +89,27 @@ You’re always welcome to reach out to info@inviso.dk with ideas or feedback. T
 
 Until then though, you can always use tools 1 and 2, and continue the old custom approach for part 3. This might be relevant if you want to:
 
-- Download data from a view
-- Download as something other than png
+1. Download data from a view
+2. Download as something other than png
+3. Download a png with filters set
+4. Any other feature that you find on the API documentation
+https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm
+
+
+# Examples:
+
+**Download data from view: 
+
+<img width="504" alt="image3" src="https://user-images.githubusercontent.com/88531833/135099229-aa718194-f28a-42af-83da-86f577a67e1d.png">
+
+<img width="866" alt="image1" src="https://user-images.githubusercontent.com/88531833/135099299-51225084-9029-4f64-bc14-543e6b5fc0b1.png">
+
+
+**Download view with filters applied:
+*Remember to add vf_ before each filter 
+
+<img width="501" alt="image6" src="<img width="337" alt="image2" src="https://user-images.githubusercontent.com/88531833/135099519-49a4e951-45c8-41ec-b67b-fe6ac75047e1.png">
+                                   
+https://user-images.githubusercontent.com/88531833/135099468-ab6f1c86-9b82-48b8-9551-24db46a3a1ac.png">
 
 
