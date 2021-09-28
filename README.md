@@ -106,6 +106,7 @@ https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm
 
 
 **Download view with filters applied**:
+
 *Remember to add vf_ before each filter* 
 
 
