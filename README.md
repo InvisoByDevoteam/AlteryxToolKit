@@ -11,6 +11,7 @@ This repository includes 3 tools:
 As mentioned the two first tools are required in order to be able to extract anything from you Tableau Server. The last tool saves a dashboard locally on your computer. Behind the scene these tools utilised Tableau Server APIs. Hence, making your Alteryx workflow less complicated, safer and increase your work effiency. 
 
 
+## How to download the tools
 https://user-images.githubusercontent.com/88531833/135091150-416473fc-08e3-467a-aeec-d655d0446928.mp4
 
 
