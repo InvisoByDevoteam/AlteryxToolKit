@@ -38,15 +38,13 @@ Now we are ready to go!
 
 
 
-# Tableau Server API Authentication
-This tool returns an Tableau Server Authentication Token and Site-ID.
-It requires 4 pieces of information: 
-* Username 
-* Password 
-* Server URL 
-* Site Name
+# Step 1: Log into your Tableau Server
 
-The username and password are the credentials you use to log into your Tableau Server. The Server URL is the URL of your organisation, e.g. https://tableau.inviso.dk/. While Site Name is can be found in the URL once you have signed in e.g. (marked with "*") https://tableau.inviso.dk/#/site/*Inviso-TorPetersen*/explore
+**To log into the tableau server you will have to submit a request to Tableau, and they send you back a token. For the next 240 minutes (unless you change this setting) you can use this token in all of your other requests you submit.** 
+
+**To summarize: First we send our username and password to tableau, they send back a token which will then count as our pseudo username and password when using the API**
+
+
 
 
 https://user-images.githubusercontent.com/88531833/135090970-b14b03d6-c054-4eca-ac17-f1f78f2d5059.mp4
