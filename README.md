@@ -1,18 +1,40 @@
-# Tableau Server API Alteryx Tools
+# Introduction
 
-One of the magical things about Tableau and Alteryx is how well they work together. Today we are going to take that even further, and use the Tableau API within Alteryx. With this we can do several magical things, including downloading an image (png. pdf, etc.) of a Tableau view (view = dashboard). However, enabling working with tableau server requires a authentication process (authentication token) and information about the dashboard you wish to save as a png. 
+One of the magical things about Tableau and Alteryx is how well they work together. In this past blog post, we walked through how to use the Tableau API with Alteryx from scratch using the download tool. To do this there are 3 steps: 
 
-This repository includes 3 tools:
+* Log into the tableau server through the API to get an access key
+* Find out which view ID you want to work with
+* Download the view as an image
 
-* Tableau Server API Authentication
-* Tableau Server API Get View ID 
-* Tableau Server API Download Image 
-
-As mentioned the two first tools are required in order to be able to extract anything from you Tableau Server. The last tool saves a dashboard locally on your computer. Behind the scene these tools utilised Tableau Server APIs. Hence, making your Alteryx workflow less complicated, safer and increase your work effiency. 
+Today, we want to introduce you to new Alteryx tools we have built to make this 3-step process soooooo much easier.
 
 
-## How to download the tools
+## Download the tools
+* Download the tools from github here: https://github.com/InvisoByDevoteam/TableauServerAPIAlteryxTools by clicking the green code button and then “download to zip”
+* Unzip the file and click on the .yxi files one at a time. This will install them in Alteryx. You will not receive a “successfully installed” note, but it only takes a second to install them and you can then find them in your toolbar by searching “Tableau Server”
+
+* note - to use these on the server the tools must also be installed on the server.
+
 https://user-images.githubusercontent.com/88531833/135091150-416473fc-08e3-467a-aeec-d655d0446928.mp4
+
+
+Find the information you need: 
+
+* Your Tableau Server URL without http/https
+* Your username
+* Your password
+* The URL of the view you would like to work with
+* Your site name (see below how to find this)
+
+ In my demonstration here I will be using the following values::
+* Tableau Server URL without http/https: tableau.inviso.dk
+* Username: tor@inviso.dk
+* Password: nice try ;)
+* URL of the view: : https://tableau.inviso.dk/#/site/Inviso-TorPetersen/views/test2/Sheet1?:iid=1
+* Site name: Inviso-TorPetersen (you can find the site name in the highlighted section of your views’s URL - marked in red above)
+
+
+Now we are ready to go! 
 
 
 
