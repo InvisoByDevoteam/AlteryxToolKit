@@ -105,8 +105,8 @@ https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm
 <img width="866" alt="image1" src="https://user-images.githubusercontent.com/88531833/135099299-51225084-9029-4f64-bc14-543e6b5fc0b1.png">
 
 
-**Download view with filters applied:
-Remember to add vf_ before each filter 
+**Download view with filters applied**:
+*Remember to add vf_ before each filter* 
 
 
 <img width="501" alt="image6" src="https://user-images.githubusercontent.com/88531833/135099702-ab599e35-ed5d-4ce1-9a17-e41c74a1be93.png">
