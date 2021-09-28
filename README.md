@@ -1,11 +1,5 @@
 # Tableau Server API Alteryx Tools
 
-
-
-https://user-images.githubusercontent.com/88531833/135091150-416473fc-08e3-467a-aeec-d655d0446928.mp4
-
-
-
 One of the magical things about Tableau and Alteryx is how well they work together. Today we are going to take that even further, and use the Tableau API within Alteryx. With this we can do several magical things, including downloading an image (png. pdf, etc.) of a Tableau view (view = dashboard). However, enabling working with tableau server requires a authentication process (authentication token) and information about the dashboard you wish to save as a png. 
 
 This repository includes 3 tools:
@@ -15,6 +9,11 @@ This repository includes 3 tools:
 * Tableau Server API Download Image 
 
 As mentioned the two first tools are required in order to be able to extract anything from you Tableau Server. The last tool saves a dashboard locally on your computer. Behind the scene these tools utilised Tableau Server APIs. Hence, making your Alteryx workflow less complicated, safer and increase your work effiency. 
+
+
+https://user-images.githubusercontent.com/88531833/135091150-416473fc-08e3-467a-aeec-d655d0446928.mp4
+
+
 
 # Tableau Server API Authentication
 This tool returns an Tableau Server Authentication Token and Site-ID.
