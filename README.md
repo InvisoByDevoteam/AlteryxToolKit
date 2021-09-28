@@ -53,12 +53,6 @@ https://user-images.githubusercontent.com/88531833/135090970-b14b03d6-c054-4eca-
 
 
 
-# Tableau Server API Get View ID 
-
-This tool requires to be connected to the output-stream of the Tableau Server API Authentication tool. It will return a list of your Tableau Server view names, view IDs and view URLs. 
-
-https://user-images.githubusercontent.com/88531833/135091077-bbb397d8-1d82-49bd-af1d-2d2025abd032.mp4
-
 
 
 # Step 2: Find our View ID
@@ -72,7 +66,30 @@ There are no configurations, just attach it to the previous tool and run. You ca
 
 <img width="675" alt="image7" src="https://user-images.githubusercontent.com/88531833/135098266-cd8e7434-84d0-4529-8a72-ed4be40e5b81.png">
 
+https://user-images.githubusercontent.com/88531833/135091077-bbb397d8-1d82-49bd-af1d-2d2025abd032.mp4
+
+
+
+
+
+# Step 3: Download your dashboard
+
+After finding your view ID, you simply plug that into our last tool, the Tableau Server API Download Image tool,  tell Alteryx where to download the image to and run! 
+
+<img width="812" alt="image4" src="https://user-images.githubusercontent.com/88531833/135098714-8ea78a4e-3cb1-4a9e-be28-2c1009bf90ff.png">
 
 
 https://user-images.githubusercontent.com/88531833/135091112-a31a1bbd-9284-4790-ab31-5ca599bb197b.mp4
+
+# More information
+
+We are looking forward to hearing your feedback on these tools and your use cases.
+
+You’re always welcome to reach out to info@inviso.dk with ideas or feedback. These tools are a 1.0 version, but we know that so much else can be built. If your use case goes outside the scope of downloading a dashboard as a png, let us know and we could build that functionality in.
+
+Until then though, you can always use tools 1 and 2, and continue the old custom approach for part 3. This might be relevant if you want to:
+
+- Download data from a view
+- Download as something other than png
+
 
