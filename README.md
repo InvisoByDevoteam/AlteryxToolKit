@@ -40,10 +40,10 @@ Now we are ready to go!
 
 # Step 1: Log into your Tableau Server
 
-*To log into the tableau server you will have to submit a request to Tableau, and they send you back a token. For the next 240 minutes (unless you change this setting) you can use this token in all of your other requests you submit.*
+    *To log into the tableau server you will have to submit a request to Tableau, and they send you back a token. For the next 240 minutes (unless you change this     setting) you can use this token in all of your other requests you submit.*
 
-*To summarize: First we send our username and password to tableau, they send back a token which will then count as our pseudo username and password when using the API.*
-
+    *To summarize: First we send our username and password to tableau, they send back a token which will then count as our pseudo username and password when using     the API.*
+ 
 
 
 
