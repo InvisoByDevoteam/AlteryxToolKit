@@ -13,7 +13,7 @@ Today, we want to introduce you to new Alteryx tools we have built to make this 
 * Download the tools from github here: https://github.com/InvisoByDevoteam/TableauServerAPIAlteryxTools by clicking the green code button and then “download to zip”
 * Unzip the file and click on the .yxi files one at a time. This will install them in Alteryx. You will not receive a “successfully installed” note, but it only takes a second to install them and you can then find them in your toolbar by searching “Tableau Server”
 
-* note - to use these on the server the tools must also be installed on the server.
+** note - to use these on the server the tools must also be installed on the server.
 
 https://user-images.githubusercontent.com/88531833/135091150-416473fc-08e3-467a-aeec-d655d0446928.mp4
 
