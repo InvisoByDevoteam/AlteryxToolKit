@@ -46,7 +46,7 @@ Now we are ready to go!
  
 But you can ignore this, because you have tool number 1 - The Tableau Server API Authentication Tool. Simply drag to your canvas and fill in the required information and you are ready for step 2. 
 
-<img width="866" alt="image1" src="https://user-images.githubusercontent.com/88531833/135097745-855d20a1-f66e-49d1-a5b3-0432e772087b.png">
+<img width="779" alt="image5" src="https://user-images.githubusercontent.com/88531833/135097976-ad29ee17-61d9-4f75-95f1-5811b47e7e47.png">
 
 
 https://user-images.githubusercontent.com/88531833/135090970-b14b03d6-c054-4eca-ac17-f1f78f2d5059.mp4
@@ -61,10 +61,16 @@ https://user-images.githubusercontent.com/88531833/135091077-bbb397d8-1d82-49bd-
 
 
 
-# Tableau Server API Download Image 
+# Step 2: Find our View ID
 
 
-This tool allows you to save a you Tableau Server dashboards locally as a png file. It requires to be connected to the output-stream of the Tableau Server API Authentication or Tableau Server API Get View ID -tool. Furthermore, you need to specify where (the path) you want to save locally e.g., C://Useres/user/Desktop/nameOfFile.png. Lastly, you need to specify which dashboard you wish to save as a png by specifying its _View ID_, which can be found in the output-stream of the Tableau Server API Get View ID tool. 
+In step 2, we will ask Tableau to give us a list of all of the views on our site. It will return the list and include a numeric view_id which we will then use to ask Tableau to download our view. Unfortunately, this is the only way to get the view_id. You can not find it on the Tableau Server. 
+
+To summarize, you need to use the Tableau Server API Get View ID tool **ONE** time to get the view_id that you need. It will not change, even if you move the workbook inside the same site, rename it, etc. 
+
+There are no configurations, just attach it to the previous tool and run. You can see all of the views on your site in the output. I have copied the View ID from row 2 as that is the view I want to download, and continue to step 3.
+
+<img width="675" alt="image7" src="https://user-images.githubusercontent.com/88531833/135098266-cd8e7434-84d0-4529-8a72-ed4be40e5b81.png">
 
 
 
